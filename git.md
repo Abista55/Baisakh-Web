@@ -5,6 +5,7 @@
 <!-- for everyday pull push in git -->
 >git status (optional)
 >git add .
+>git add <file_name>
 >git commit -m "html-css"
 >git push
 
