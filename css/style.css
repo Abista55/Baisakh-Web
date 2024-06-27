@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+    color: inherit;
+    text-transform: capitalize;
+}
+.active-link{
+font-weight: bold;
+color: deeppink;
+font-style: italic;
+}
+.box{
+    border: 1px dotted;
+}

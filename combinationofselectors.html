@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            width: 250px;
+            background-color: whitesmoke;
+            border: 1px solid grey;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+        }
+        .card img{
+            width: 250px;
+        }
+        a{
+            color: inherit;
+            text-decoration: none;
+        }
+       a.active{
+        color: red;
+        font-weight: bold;
+       }
+       .inactive{
+        color: grey;
+       }
+       .users li{
+        color: grey;
+       }
+       li.active{
+        color: black;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="">Home</a>
+        <a href="">Contact</a>
+        <a href="" class="active">Combined Selector</a>
+
+    </header>
+    <h1>Combined Selectors & Specificity Score</h1>
+    <ul>
+        <li>descendent</li>
+    </ul>
+    <div class="card">
+        <img src="./assets/test.jpg" alt="">
+        <div class="card-body">
+            <div class="tags">
+                <p class="tag">lake</p>
+                <p class="tag">nature</p>
+            </div>
+            <p class="heading">Lorem, ipsum dolor.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores dolore repudiandae atque eveniet ea
+                recusandae, fugit, blanditiis accusantium est facilis enim at iure earum officiis consectetur repellendus
+                delectus temporibus eum.</p>
+            <a href="">Read More</a>
+        </div>
+    </div>
+    <div>
+        <img src="./assets/test.jpg" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab vitae officia eum in nam, dolores iusto corrupti doloremque reprehenderit quaerat quas cum, nemo laborum consequatur maiores velit voluptates fugiat sit?</p>
+    </div>
+    <h2>Users</h2>
+    <hr/>
+    <ul class="users">
+        <li class="active">Ram</li>
+        <li class="active">Dhj</li>
+        <li>Vjs</li>
+        <li>Cbi</li>
+        <li>Inc</li>
+    </ul>
+    <h1>Specificity Score</h1>
+
+</body>
+</html>

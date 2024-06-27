@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heading{
+            text-align: center !important;
+        }
+        h1{
+            text-align: end !important;
+        }
+        html body h1.heading.italic#h-one{
+            text-align: center;
+        }
+        .italic{
+           font-style: italic; 
+        }
+        html body h1.heading#h-one{
+            text-align: left;
+        }
+        #h-one{
+            text-align: center;
+        }
+        body h1.heading{
+            text-align: end;
+        }
+        body .heading{
+            text-align: left;
+        }
+        .heading{
+            text-align: center;
+        }
+        header body h1{
+            text-align: right;
+        }
+        body h1{
+            text-align: right;
+        }
+        h1{
+            text-align: center;
+        }
+        h1{
+            text-align: left;
+        }
+       
+    </style>
+</head>
+<body>
+   <h1 style="text-align: left;" class="heading italic" id="h-one">Specificity Score</h1> 
+<pre>
+    tag < class < id
+</pre>
+</body>
+</html>
