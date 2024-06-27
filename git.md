@@ -6,3 +6,5 @@
 >git status (optional)
 >git add .
 >git commit -m "html-css"
+>git push
+
